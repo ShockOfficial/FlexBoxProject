@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>Hotelo &mdash; Twoja aplikacja do bookowania hoteli</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="./img/logo.png" alt="Logo of hotel" class="logo">
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="Szukaj hoteli">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="./img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="./img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="./img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="img/user.jpg" alt="user photo" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Sławomir</span>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Hotel</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span>Loty</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>Wynajem aut</span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="./img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span>Wycieczki</span>
+                        </a>
+                    </li>
+                </ul>
+
+
+                <div class="legal">
+                    &copy; 2021 by Hotelo. All rights reserved.
+                </div>
+            </nav>
+            <main class="hotel-view">
+
+                <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="./img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="./img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="./img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                    </figure>
+                </div>
+                <div class="overview">
+                    <h1 class="overview__heading"> Hotel Las Palmas</h1>
+
+                    <div class="overview__stars">
+                        <svg class="overview__star-icon">
+                            <use xlink:href="./img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__star-icon">
+                            <use xlink:href="./img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__star-icon">
+                            <use xlink:href="./img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__star-icon">
+                            <use xlink:href="./img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__star-icon">
+                            <use xlink:href="./img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+
+                    <div class="overview__location">
+                        <svg class="overview__location-icon">
+                            <use xlink:href="./img/sprite.svg#icon-location-pin"></use>
+                        </svg>
+                        <button class="btn-inline">Albufeira, Portugal</button>
+                    </div>
+
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">8.6</div>
+                        <div class="overview__rating-count">429 głosów</div>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <div class="description">
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+                        </p>
+
+                        <p class="paragraph">
+                            Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                        </p>
+
+                        <ul class="list">
+                            <li class="list__item">Blisko plaży</li>
+                            <li class="list__item">Śniadanie wliczone</li>
+                            <li class="list__item">Blisko lotniska</li>
+                            <li class="list__item">Darmowe Wi-FI</li>
+                            <li class="list__item">Klimatyzacja i ogrzewanie</li>
+                            <li class="list__item">Lubimy zwierzęta</li>
+                            <li class="list__item">Mówimy we wszystkich językach </li>
+                            <li class="list__item">Doskonałe dla rodzin</li>
+                        </ul>
+
+                        <div class="recommend">
+                            <p class="recommend__count">
+                                Lucjan i 3 innych znajomych polecili ten hotel.
+                            </p>
+
+                            <div class="recommend__friends">
+                                <img src="img/user-3.jpg" alt="Friend" class="recommend__photo">
+                                <img src="img/user-4.jpg" alt="Friend" class="recommend__photo">
+                                <img src="img/user-5.jpg" alt="Friend" class="recommend__photo">
+                                <img src="img/user-6.jpg" alt="Friend" class="recommend__photo">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="./img/user-1.jpg" alt="USER" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Michał Samkosz</p>
+                                    <p class="review__user-date">23.02.2021</p>
+                                </div>
+                                <div class="review__rating">7.8</div>
+                            </figcaption>
+                        </figure>
+
+
+                        <figure class="review">
+                            <blockquote class="review__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="./img/user-2.jpg" alt="USER" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name"> Ewa Kwas</p>
+                                    <p class="review__user-date">17.05.2021</p>
+                                </div>
+                                <div class="review__rating">9.3</div>
+                            </figcaption>
+                        </figure>
+
+                        <button class="btn-inline">Pokaż więcej <span>&rarr;</span></button>
+                    </div>
+
+
+                </div>
+                <div class="cta">
+                    <h2 class="cta__book-now">
+                        Dobra wiadomość! Mamy 4 wolne pokoje w tym terminie!
+                    </h2>
+                    <button class="btn">
+                        <span class="btn__visible">Zarezerwuj teraz</span>
+                        <span class="btn__invisible">Tylko 4 wolne pokoje</span>
+                        
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
