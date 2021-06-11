@@ -1,7 +1,7 @@
 .container {
     min-height: 50rem;
-    max-width: 120rem;
-    margin: 8rem auto;
+    // max-width: 120rem;
+    height: 100%; // margin: 8rem auto;
     background-color: $Grey-light-2;
     box-shadow: 0 2rem 6rem rgba(0, 0, 0, .3);
     @media only screen and (max-width: 75em) {
